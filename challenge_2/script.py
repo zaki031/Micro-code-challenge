@@ -8,9 +8,7 @@ def c(i):
         p=v
     return d
 h,k=1100,''
-for v in n.keys():
-    k+=n[v]
-    h-=v
+for v in n.keys():k+=n[v]
 print(k,'since',''.join(str(c(i))+'/'for i in "V/III/MCMLXXXV".split("/"))[:-1])
 
 
